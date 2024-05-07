@@ -1,16 +1,4 @@
 
-/*
-// array de usuario
-
-let userBD = [{
-    email: "email@email.com",
-    senha: "1234"
-}]
-*/
-
-let userBD = []
-
-
 
 const fetchData = async () => {
     try {
@@ -32,6 +20,19 @@ const fetchData = async () => {
 };
 
 fetchData();
+
+
+
+/*
+// array de usuario
+
+let userBD = [{
+    email: "email@email.com",
+    senha: "1234"
+}]
+*/
+
+let userBD = []
 
 console.log(userBD)
 const form = document.querySelector('form');
